@@ -7,10 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "nodemon": "^2.0.22",
-    "socket.io": "^4.6.1"
+ "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview"
   }
 }
